@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aya Shop _store - Wasita Annaba</title>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Great+Vibes&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Cairo',sans-serif;background:#0a0a0a;color:#fff;text-align:center}
+header{background:linear-gradient(135deg,#000 0%, #1a1a1a 100%);padding:60px 20px;border-bottom:3px solid #ffb6d5}
+.logo{font-family:'Great Vibes',cursive;font-size:70px;color:#ffb6d5;text-shadow:0 0 20px #ff69b4}
+.subtitle{color:#ffb6d5;margin-top:10px;font-size:18px;letter-spacing:1px}
+.badge{display:inline-block;background:#ffb6d5;color:#000;padding:8px 20px;border-radius:30px;margin-top:15px;font-weight:700}
+.container{max-width:900px;margin:30px auto;padding:0 15px}
+.card{background:#111;border:1px solid #ffb6d533;border-radius:20px;padding:25px;margin:20px 0}
+.card h2{color:#ffb6d5;margin-bottom:15px;font-size:28px}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:15px;margin-top:20px}
+.service{background:#1a1a1a;border:1px solid #ffb6d5;border-radius:15px;padding:20px;transition:0.3s}
+.service:hover{transform:translateY(-5px);box-shadow:0 10px 30px #ffb6d566}
+.service span{font-size:40px}
+.service h3{color:#ffb6d5;margin:10px 0}
+.btn{display:inline-block;background:linear-gradient(135deg,#ffb6d5,#ff69b4);color:#000;padding:15px 35px;border-radius:50px;text-decoration:none;font-weight:700;font-size:18px;margin:10px;transition:0.3s}
+.btn:hover{transform:scale(1.05);box-shadow:0 5px 20px #ffb6d580}
+.btn-whatsapp{background:linear-gradient(135deg,#25D366,#128C7E);color:#fff}
+footer{background:#000;padding:30px;color:#ffb6d5;margin-top:40px;border-top:1px solid #ffb6d533}
+.social a{color:#ffb6d5;text-decoration:none;margin:0 10px;font-size:20px}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">Aya Shop _store</div>
+<div class="subtitle">Wasita Annaba - SHEIN | TEMU | AliExpress</div>
+<div class="badge">📦 Livraison 58 Wilayas - توصيل 58 ولاية</div>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>🛍️ خدماتنا</h2>
+<div class="services">
+<div class="service">
+<span>👗</span>
+<h3>SHEIN</h3>
+<p>كلش من شي ان بأسعار الموقع</p>
+</div>
+<div class="service">
+<span>🛒</span>
+<h3>TEMU</h3>
+<p>طلبيات تيمو بأرخص سعر</p>
+</div>
+<div class="service">
+<span>📦</span>
+<h3>AliExpress</h3>
+<p>وساطة علي اكسبرس</p>
+</div>
+</div>
+</div>
+
+<div class="card">
+<h2>💖 علاش تختارينا؟</h2>
+<p style="line-height:2;font-size:17px">
+✨ أسعار الموقع بدون زيادة كبيرة<br>
+✨ متابعة الطلبية حتى توصلك<br>
+✨ دفع ccp / BaridiMob<br>
+✨ توصيل سريع لكل الولايات<br>
+✨ ثقة ومصداقية - عنابة
+</p>
+</div>
+
+<div class="card">
+<h2>📩 اطلبي درك</h2>
+<p style="margin-bottom:20px">ابعثيلنا رابط المنتج ونحن نتكفلو بكلش!</p>
+<a href="https://wa.me/213XXXXXXXXX" class="btn btn-whatsapp">💬 واتساب</a>
+<a href="https://www.facebook.com/" class="btn">📘 فيسبوك</a>
+<br>
+<a href="https://www.instagram.com/" class="btn" style="background:linear-gradient(135deg,#feda75,#d62976,#4f5bd5);color:#fff">📸 انستغرام</a>
+</div>
+
+</div>
+
+<footer>
+<div class="social">
+Aya Shop _store © 2026<br><br>
+Made with 💗 in Annaba
+</div>
+</footer>
+
+</body>
+</html>
